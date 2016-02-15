@@ -1,0 +1,15 @@
+Graph: AB5, BC4, CD8, DC8, DE6, AD5, CE2, EB3, AE7
+
+get-distance ABC
+get-distance AD
+get-distance ADC
+get-distance AEBCD
+get-distance AED
+
+count-routes CC -maxstops 3
+count-routes AC -stops 4
+
+get-shortest-distance AC
+get-shortest-distance BB
+
+count-routes CC -limited-distance 29
